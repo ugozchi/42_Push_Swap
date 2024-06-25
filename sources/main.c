@@ -1,32 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.h                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: uzanchi <uzanchi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 13:03:51 by uzanchi           #+#    #+#             */
-/*   Updated: 2024/06/17 13:03:55 by uzanchi          ###   ########.fr       */
+/*   Created: 2024/06/25 13:18:47 by uzanchi           #+#    #+#             */
+/*   Updated: 2024/06/25 13:40:46 by uzanchi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PUSH_SWAP_H
-# define PUSH_SWAP_H
-
-# include "../libft/libft.h"
-
-# define ERROR_MESSAGE "Error\n"
-
-typedef struct s_stack_node
+int	main(int ag, char **av)
 {
-	int	nbr;
-	int	index;
-	int	push_cost;
-	bool	above_median;
-	bool	cheapest;
-	struct s_stack_node	*target_node;
-	struct s_stack_node	*next;
-	struct s_stack_node	*prev;	
-}	t_stack_node;
+	t_stack_node	*a;
+	t_stack_node	*b;
 
-#endif
+	a = NULL;
+	b = NULL;
+	if (ac == 1 || (av == 2 && !av[1][0]))
+		return (1);
+	else if (ac == 2)
+		av = ft_split(av[1], ' ');
+	init_stack_a(&a, av + 1);
+	if (!stack_sorted(a))
+	{
+		if (stack_len(a) == 2)
+			sa(&a, false);
+		else if (stack_len(a) == 3)
+			sort_three(&a);
+		else
+			sort_stacks(&a, &b);
+	}
+	free_stack(&a);
+	return (0);
+}
