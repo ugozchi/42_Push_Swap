@@ -52,7 +52,7 @@ Toute cette partie correspond à ce que l'on doit rendre pour ce faire corriger.
 La première étape se déroule dans la fonction main :
 
 1) Vérification des arguments
-	- Si le programme est exécuté sans arguments (ac == 1), ou si un seul argument vide est passé (ac == 2 && !av[1][0]), le programme appelle immédiatement exit(EXIT_FAILURE) et se termine.
+	- Si le programme est exécuté sans arguments `(ac == 1)`, ou si un seul argument vide est passé `(ac == 2 && !av[1][0])`, le programme appelle immédiatement `exit(EXIT_FAILURE)` et se termine.
 	-Si un seul argument est passé, il est supposé être une chaîne contenant plusieurs nombres séparés par des espaces (exemple : "1 2 3 4"). Dans ce cas, le programme utilise ft_split pour diviser cette chaîne en plusieurs sous-chaînes représentant chaque nombre individuel.
 2) Conversion des arguments en liste chaînée
 	- Après avoir divisé les arguments ou après avoir reçu plusieurs arguments directement, le programme les convertit en une pile chaînée (t_list). Chaque nombre est vérifié pour s'assurer qu'il est bien un entier valide et qu'il ne dépasse pas les limites d'un int (avec check_int et ft_atoi).
