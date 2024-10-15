@@ -143,6 +143,8 @@ Ici on demande 500 itérations de 100 nombres différents avec un objectif de tr
 
 ![complexity_100](.media/complexity_100.gif)
 
+### Pour 500 nombres
+
 Ici on demande 100 itérations de 500 nombres différents avec un objectif de tri en moins de 5500 coups (pour avoir tous les points)
 
 ![complexity_100](.media/complexity_100.gif)
