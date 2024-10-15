@@ -131,10 +131,21 @@ Le programme utilise plusieurs types de mouvements pour réorganiser les piles :
 
 <br>
 
-On peut visualiser comment marche le code grâce à [o-reo](https://github.com/o-reo) et son [Push_swap visualizer](https://github.com/o-reo/push_swap_visualizer)
+On peut visualiser comment marche l'algorithle grâce à [o-reo](https://github.com/o-reo) et son [Push_swap visualizer](https://github.com/o-reo/push_swap_visualizer)
 
 ![algo](.media/algo.gif)
 
+On peut aussi le tester grâce à complexity. Ce programme va tester l'algorithme autant de fois que 'lon le souhaite avec des données différentes.
+
+### Pour 100 nombres
+
+Ici on demande 500 itérations de 100 nombres différents avec un objectif de tri en moins de 700 coups (pour avoir tous les points)
+
+![complexity_100](.media/complexity_100)
+
+Ici on demande 100 itérations de 500 nombres différents avec un objectif de tri en moins de 5500 coups (pour avoir tous les points)
+
+![complexity_100](.media/complexity_100)
 ## Note Final et Commentaires 📔
 
 <br>
