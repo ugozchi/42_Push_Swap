@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/SFML-2.5.1-sources.zip" ABSOLUTE)
-get_filename_component(directory "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-src" ABSOLUTE)
+get_filename_component(filename "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/SFML-2.5.1-sources.zip" ABSOLUTE)
+get_filename_component(directory "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

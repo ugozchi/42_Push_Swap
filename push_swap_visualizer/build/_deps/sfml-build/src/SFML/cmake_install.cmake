@@ -1,4 +1,4 @@
-# Install script for directory: /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/src/SFML
+# Install script for directory: /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
-  include("/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
-  include("/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
+  include("/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/System/cmake_install.cmake")
+  include("/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Window/cmake_install.cmake")
+  include("/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Graphics/cmake_install.cmake")
 
 endif()
 

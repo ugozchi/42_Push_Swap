@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp" "tests/CMakeFiles/tests.dir/test_pushswap.cpp.o" "gcc" "tests/CMakeFiles/tests.dir/test_pushswap.cpp.o.d"
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_queues.cpp" "tests/CMakeFiles/tests.dir/test_queues.cpp.o" "gcc" "tests/CMakeFiles/tests.dir/test_queues.cpp.o.d"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp" "tests/CMakeFiles/tests.dir/test_pushswap.cpp.o" "gcc" "tests/CMakeFiles/tests.dir/test_pushswap.cpp.o.d"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_queues.cpp" "tests/CMakeFiles/tests.dir/test_queues.cpp.o" "gcc" "tests/CMakeFiles/tests.dir/test_queues.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/src/CMakeFiles/VisualizerLib.dir/DependInfo.cmake"
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/DependInfo.cmake"
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/src/CMakeFiles/VisualizerLib.dir/DependInfo.cmake"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/DependInfo.cmake"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
+  "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

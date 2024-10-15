@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule"
 		},
 		{
-			"file" : "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule"
+			"file" : "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule"
 		}
 	],
 	"target" : 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uzanchi/42/Push_Swap/push_swap_visualizer
+CMAKE_SOURCE_DIR = /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uzanchi/42/Push_Swap/push_swap_visualizer/build
+CMAKE_BINARY_DIR = /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/tests.dir/depend.make
@@ -72,30 +72,30 @@ include tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/test_queues.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/test_queues.cpp.o: ../tests/test_queues.cpp
 tests/CMakeFiles/tests.dir/test_queues.cpp.o: tests/CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/tests.dir/test_queues.cpp.o"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_queues.cpp.o -MF CMakeFiles/tests.dir/test_queues.cpp.o.d -o CMakeFiles/tests.dir/test_queues.cpp.o -c /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_queues.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/tests.dir/test_queues.cpp.o"
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_queues.cpp.o -MF CMakeFiles/tests.dir/test_queues.cpp.o.d -o CMakeFiles/tests.dir/test_queues.cpp.o -c /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_queues.cpp
 
 tests/CMakeFiles/tests.dir/test_queues.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/test_queues.cpp.i"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_queues.cpp > CMakeFiles/tests.dir/test_queues.cpp.i
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_queues.cpp > CMakeFiles/tests.dir/test_queues.cpp.i
 
 tests/CMakeFiles/tests.dir/test_queues.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/test_queues.cpp.s"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_queues.cpp -o CMakeFiles/tests.dir/test_queues.cpp.s
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_queues.cpp -o CMakeFiles/tests.dir/test_queues.cpp.s
 
 tests/CMakeFiles/tests.dir/test_pushswap.cpp.o: tests/CMakeFiles/tests.dir/flags.make
 tests/CMakeFiles/tests.dir/test_pushswap.cpp.o: ../tests/test_pushswap.cpp
 tests/CMakeFiles/tests.dir/test_pushswap.cpp.o: tests/CMakeFiles/tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/tests.dir/test_pushswap.cpp.o"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_pushswap.cpp.o -MF CMakeFiles/tests.dir/test_pushswap.cpp.o.d -o CMakeFiles/tests.dir/test_pushswap.cpp.o -c /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/tests.dir/test_pushswap.cpp.o"
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/tests.dir/test_pushswap.cpp.o -MF CMakeFiles/tests.dir/test_pushswap.cpp.o.d -o CMakeFiles/tests.dir/test_pushswap.cpp.o -c /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp
 
 tests/CMakeFiles/tests.dir/test_pushswap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/test_pushswap.cpp.i"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp > CMakeFiles/tests.dir/test_pushswap.cpp.i
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp > CMakeFiles/tests.dir/test_pushswap.cpp.i
 
 tests/CMakeFiles/tests.dir/test_pushswap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/test_pushswap.cpp.s"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp -o CMakeFiles/tests.dir/test_pushswap.cpp.s
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/test_pushswap.cpp -o CMakeFiles/tests.dir/test_pushswap.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
@@ -116,18 +116,18 @@ bin/tests: _deps/sfml-build/lib/libsfml-system.so.2.5.1
 bin/tests: /usr/lib/x86_64-linux-gnu/libGL.so
 bin/tests: /usr/lib/x86_64-linux-gnu/libGLU.so
 bin/tests: tests/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/tests"
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/tests"
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/tests.dir/build: bin/tests
 .PHONY : tests/CMakeFiles/tests.dir/build
 
 tests/CMakeFiles/tests.dir/clean:
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/tests.dir/clean
 
 tests/CMakeFiles/tests.dir/depend:
-	cd /home/uzanchi/42/Push_Swap/push_swap_visualizer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uzanchi/42/Push_Swap/push_swap_visualizer /home/uzanchi/42/Push_Swap/push_swap_visualizer/tests /home/uzanchi/42/Push_Swap/push_swap_visualizer/build /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/tests/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/tests/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/tests.dir/depend
 

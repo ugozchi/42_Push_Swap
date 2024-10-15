@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSFML_WINDOW_EXPORTS
 
-CXX_INCLUDES = -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/include -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/src
+CXX_INCLUDES = -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/include -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/src
 
 CXX_FLAGS = -fPIC -fvisibility=hidden
 

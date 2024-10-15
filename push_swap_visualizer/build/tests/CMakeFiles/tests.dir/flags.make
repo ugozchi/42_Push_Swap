@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DIMGUI_USER_CONFIG=\"imconfig-SFML.h\"
 
-CXX_INCLUDES = -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/tests/include -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/catch2-src/single_include -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/src/../include -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-src -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-sfml-src -I/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/include
+CXX_INCLUDES = -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/tests/include -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/catch2-src/single_include -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/src/../include -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-src -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-sfml-src -I/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/sfml-src/include
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/catch2-src
+# Install script for directory: /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/catch2-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

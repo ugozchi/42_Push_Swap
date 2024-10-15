@@ -125,8 +125,15 @@ Le programme utilise plusieurs types de mouvements pour réorganiser les piles :
 	- Les piles `a` et `b` sont libérées via `free_list`, qui parcourt chaque élément de la pile et libère la mémoire associée.
 	- La structure `t_data` est également libérée.
 
+<br>
+
 ## Tests et visualisation 📋
 
+<br>
+
+On peut visualiser comment marche le code grâce à [o-reo](https://github.com/o-reo) et son [Push_swap visualizer](https://github.com/o-reo/push_swap_visualizer)
+
+![algo](.media/algo.webm)
 
 ## Note Final et Commentaires 📔
 

@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(imgui-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/ocornut/imgui" "GIT_TAG" "35b1148efb839381b84de9290d9caf0b66ad7d03"
-                    SOURCE_DIR          "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-src"
-                    BINARY_DIR          "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-build"
+                    SOURCE_DIR          "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-src"
+                    BINARY_DIR          "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

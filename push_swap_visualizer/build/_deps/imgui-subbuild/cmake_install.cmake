@@ -1,4 +1,4 @@
-# Install script for directory: /home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-subbuild
+# Install script for directory: /home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/uzanchi/42/Push_Swap/push_swap_visualizer/build/_deps/imgui-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/uzanchi/Code/42/Cercle2/Push_Swap/push_swap_visualizer/build/_deps/imgui-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
