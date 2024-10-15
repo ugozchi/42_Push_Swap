@@ -122,7 +122,6 @@ Le programme utilise plusieurs types de mouvements pour réorganiser les piles :
 
 ### 6️⃣ Nettoyage et libération de la mémoire
 À la fin du processus de tri, le programme libère toutes les ressources allouées :
-
 	- Les piles `a` et `b` sont libérées via `free_list`, qui parcourt chaque élément de la pile et libère la mémoire associée.
 	- La structure `t_data` est également libérée.
 
