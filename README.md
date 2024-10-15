@@ -53,15 +53,36 @@ La première étape se déroule dans la fonction main :
 
 1) Vérification des arguments
 	- Si le programme est exécuté sans arguments `(ac == 1)`, ou si un seul argument vide est passé `(ac == 2 && !av[1][0])`, le programme appelle immédiatement `exit(EXIT_FAILURE)` et se termine.
-	-Si un seul argument est passé, il est supposé être une chaîne contenant plusieurs nombres séparés par des espaces (exemple : "1 2 3 4"). Dans ce cas, le programme utilise ft_split pour diviser cette chaîne en plusieurs sous-chaînes représentant chaque nombre individuel.
+	-Si un seul argument est passé, il est supposé être une chaîne contenant plusieurs nombres séparés par des espaces (exemple : `"1 2 3 4"`). Dans ce cas, le programme utilise `ft_split` pour diviser cette chaîne en plusieurs sous-chaînes représentant chaque nombre individuel.
 2) Conversion des arguments en liste chaînée
-	- Après avoir divisé les arguments ou après avoir reçu plusieurs arguments directement, le programme les convertit en une pile chaînée (t_list). Chaque nombre est vérifié pour s'assurer qu'il est bien un entier valide et qu'il ne dépasse pas les limites d'un int (avec check_int et ft_atoi).
-	- Ensuite, le programme vérifie s'il y a des doublons dans les arguments à l'aide de la fonction check_double.
+	- Après avoir divisé les arguments ou après avoir reçu plusieurs arguments directement, le programme les convertit en une pile chaînée (`t_list`). Chaque nombre est vérifié pour s'assurer qu'il est bien un entier valide et qu'il ne dépasse pas les limites d'un `int` (avec `check_int` et `ft_atoi`).
+	- Ensuite, le programme vérifie s'il y a des doublons dans les arguments à l'aide de la fonction `check_double`.
 3) Vérification si la pile est déjà triée
-	- Une fois la pile construite, avant de lancer les algorithmes de tri, le programme appelle is_sort pour voir si la pile est déjà dans l'ordre croissant.
+	- Une fois la pile construite, avant de lancer les algorithmes de tri, le programme appelle `is_sort` pour voir si la pile est déjà dans l'ordre croissant.
 	- Si la pile est déjà triée, le programme libère la mémoire et termine l'exécution immédiatement, car aucune autre action n'est nécessaire.
-4) Allocation de la structure t_data
-	- Une fois que le programme est prêt à trier, il alloue une structure t_data. Cette structure stockera des informations critiques pour le tri, notamment :
-		- med: La médiane de la pile (utilisée comme pivot pour le tri rapide).
-		- best: Le coût minimal de déplacement des éléments lors du tri par insertion.
+4) Allocation de la structure `t_data`
+	- Une fois que le programme est prêt à trier, il alloue une structure `t_data`. Cette structure stockera des informations critiques pour le tri, notamment :
+		- `med`: La médiane de la pile (utilisée comme pivot pour le tri rapide).
+		- `best`: Le coût minimal de déplacement des éléments lors du tri par insertion.
 		- D'autres champs pour les coûts et mouvements nécessaires lors de l'insertion des éléments.
+
+### Tri rapide (quick_sort)
+Le tri rapide (quick sort) est un algorithme divisé en deux grandes étapes :
+I) Séparation des éléments par rapport à un pivot.
+II) Réarrangement récursif de chaque sous-ensemble.
+
+1) Calcul de la médiane comme pivot
+	- Avant de trier, le programme détermine un pivot en calculant la médiane des valeurs présentes dans la pile `a`.
+	Processus :
+		- La pile `a` est convertie en un tableau via `get_tab`.
+		- Le tableau est trié avec l'algorithme du tri à bulles dans `bubble_sort`. Bien que simple, cet algorithme n'est efficace que pour de petits ensembles de données, ce qui est suffisant ici, car il est utilisé uniquement pour déterminer le pivot.
+		- La médiane (élément central du tableau trié) est choisie comme pivot.
+2) Poussée des éléments dans la pile `b`
+	- Une fois la médiane calculée, le programme parcourt la pile `a` et déplace les éléments inférieurs à la médiane dans la pile `b` en utilisant la fonction `ft_pb`.
+	Cas possibles :
+		- Si l'élément en tête de la pile `a` est inférieur au pivot (médiane), il est poussé dans la pile `b`.
+		- Si l'élément est supérieur ou égal au pivot, il est déplacé en bas de la pile `a` avec une rotation vers le haut (`ft_ra`).
+		- Si is_sort retourne vrai, c'est-à-dire que la pile a est déjà triée après un certain nombre de rotations, ou si tous les éléments inférieurs au pivot ont été poussés dans b, la boucle est interrompue.
+3) Tri récursif
+Après avoir poussé les éléments de a vers b, le programme appelle récursivement quick_sort sur les sous-piles restantes pour continuer le processus de tri.
+Cas de base : Si la taille de a tombe à 3 éléments ou moins, la fonction small_sort est appelée pour trier directement cette petite pile. Ce cas est géré séparément car il ne nécessite que quelques mouvements simples (rotations et échanges).
