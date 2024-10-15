@@ -147,7 +147,7 @@ Ici on demande 500 itérations de 100 nombres différents avec un objectif de tr
 
 Ici on demande 100 itérations de 500 nombres différents avec un objectif de tri en moins de 5500 coups (pour avoir tous les points)
 
-![complexity_100](.media/complexity_100.gif)
+![complexity_100](.media/complexity_500.gif)
 
 Dans les deux cas notre algorithme passe 100% des tests. Victoire !!!
 
