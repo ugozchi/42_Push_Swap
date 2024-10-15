@@ -141,11 +141,11 @@ On peut aussi le tester grâce à complexity. Ce programme va tester l'algorithm
 
 Ici on demande 500 itérations de 100 nombres différents avec un objectif de tri en moins de 700 coups (pour avoir tous les points)
 
-![complexity_100](.media/complexity_100)
+![complexity_100](.media/complexity_100.gif)
 
 Ici on demande 100 itérations de 500 nombres différents avec un objectif de tri en moins de 5500 coups (pour avoir tous les points)
 
-![complexity_100](.media/complexity_100)
+![complexity_100](.media/complexity_100.gif)
 ## Note Final et Commentaires 📔
 
 <br>
