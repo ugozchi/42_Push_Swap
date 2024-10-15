@@ -48,7 +48,7 @@ Toute cette partie correspond à ce que l'on doit rendre pour ce faire corriger.
 
 ## Explication de l'algorithme de tri
 
-### Initialisation des arguments et préparation des piles
+### 1️⃣ Initialisation des arguments et préparation des piles
 La première étape se déroule dans la fonction main :
 
 1) Vérification des arguments
@@ -66,7 +66,7 @@ La première étape se déroule dans la fonction main :
 		- `best`: Le coût minimal de déplacement des éléments lors du tri par insertion.
 		- D'autres champs pour les coûts et mouvements nécessaires lors de l'insertion des éléments.
 
-### Tri rapide (quick_sort)
+### 2️⃣ Tri rapide (quick_sort)
 Le tri rapide (quick sort) est un algorithme divisé en deux grandes étapes :
 I) Séparation des éléments par rapport à un pivot.
 II) Réarrangement récursif de chaque sous-ensemble.
@@ -82,7 +82,47 @@ II) Réarrangement récursif de chaque sous-ensemble.
 	Cas possibles :
 		- Si l'élément en tête de la pile `a` est inférieur au pivot (médiane), il est poussé dans la pile `b`.
 		- Si l'élément est supérieur ou égal au pivot, il est déplacé en bas de la pile `a` avec une rotation vers le haut (`ft_ra`).
-		- Si is_sort retourne vrai, c'est-à-dire que la pile a est déjà triée après un certain nombre de rotations, ou si tous les éléments inférieurs au pivot ont été poussés dans b, la boucle est interrompue.
+		- Si `is_sort` retourne vrai, c'est-à-dire que la pile `a` est déjà triée après un certain nombre de rotations, ou si tous les éléments inférieurs au pivot ont été poussés dans `b`, la boucle est interrompue.
 3) Tri récursif
-Après avoir poussé les éléments de a vers b, le programme appelle récursivement quick_sort sur les sous-piles restantes pour continuer le processus de tri.
-Cas de base : Si la taille de a tombe à 3 éléments ou moins, la fonction small_sort est appelée pour trier directement cette petite pile. Ce cas est géré séparément car il ne nécessite que quelques mouvements simples (rotations et échanges).
+	- Après avoir poussé les éléments de `a` vers `b`, le programme appelle récursivement quick_sort sur les sous-piles restantes pour continuer le processus de tri.
+	- Cas de base : Si la taille de `a` tombe à 3 éléments ou moins, la fonction `small_sort` est appelée pour trier directement cette petite pile. Ce cas est géré séparément car il ne nécessite que quelques mouvements simples (rotations et échanges).
+
+### 3️⃣Tri par insertion (insert_sort)
+Une fois que les éléments inférieurs au pivot ont été poussés dans `b`, le programme commence à réinsérer ces éléments dans `a` en les triant :
+
+1) Insertion des éléments de `b` dans `a`
+	- Le programme parcourt la pile `b` et tente de réinsérer les éléments dans `a` tout en conservant l'ordre croissant de`a`.
+	Cas possibles :
+		- La fonction `can_push` vérifie si l'élément en tête de `b` peut être poussé en tête de `a` en respectant l'ordre croissant. Si c'est le cas, l'élément est poussé dans `a` via `ft_pa`.
+		- Si l'insertion directe n'est pas possible, le programme doit calculer le meilleur mouvement à effectuer pour repositionner les éléments. Les fonctions suivantes sont utilisées :
+			- `count_move`: Calcule le nombre de mouvements nécessaires pour chaque élément de `b` en tenant compte de sa position dans `a`.
+			- `cost_move`: Ajuste les coûts en fonction de la taille des piles et des rotations nécessaires.
+			- `best_move`: Sélectionne le mouvement le plus optimal en minimisant le coût total de déplacement.
+		- Une fois le meilleur mouvement déterminé, `do_mov` est appelé pour exécuter ce mouvement (rotations, échanges, ou insertion).
+2) Rotation finale pour trier `a`
+	- Après avoir réinséré tous les éléments de `b` dans `a`, la fonction `end_rot` vérifie si `a` est correctement triée.
+		- Si nécessaire, des rotations supplémentaires sont effectuées pour terminer le tri.
+		- Si `best_rot` indique qu'une rotation vers le haut est préférable, des rotations `ft_ra` sont effectuées. Sinon, des rotations inverses (`ft_rra`) sont utilisées.
+
+### 4️⃣ Gestion des mouvements et rotations
+Le programme utilise plusieurs types de mouvements pour réorganiser les piles :
+
+1) Rotations simultanées :
+	- `ft_rr`: Effectue une rotation simultanée vers le haut des piles `a` et `b`.
+	- `ft_rrr`: Effectue une rotation simultanée inverse des piles `a` et `b`.
+2) Rotations individuelles :
+	- `ft_ra` et `ft_rra`: Rotation vers le haut et rotation inverse pour la pile `a`.
+	- `ft_rb` et `ft_rrb`: Rotation vers le haut et rotation inverse pour la pile `b`.
+
+### 5️⃣ Cas particuliers
+1) Si la pile contient 3 éléments ou moins
+	- Quand `quick_sort` détecte que la taille de `a` est de 3 éléments ou moins, `small_sort` est utilisée pour trier cette pile. Cette fonction utilise des rotations et des échanges simples pour trier efficacement une petite pile.
+2) Si la pile est déjà triée
+	- À chaque étape du tri, le programme vérifie si la pile est déjà triée en utilisant `is_sort`. Cela permet d'arrêter le tri plus tôt si la pile est déjà dans l'ordre correct, optimisant ainsi les performances.
+
+### 6️⃣ Nettoyage et libération de la mémoire
+À la fin du processus de tri, le programme libère toutes les ressources allouées :
+
+	- Les piles `a` et `b` sont libérées via `free_list`, qui parcourt chaque élément de la pile et libère la mémoire associée.
+	- La structure `t_data` est également libérée.
+
